@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px 20px;
+  padding-bottom: 100px;
+}
+
+.view {
+  background-image: url(https://i.pinimg.com/736x/9a/9a/10/9a9a1016ab135bcb305140d5829a0ff3.jpg);
+  background-size: 100%;
+  width: 100%;
+  height: 100vh;
+}
+
+.view .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.view .img img {
+  width: 500px;
+  margin-top: 40px;
+}
+
+.view h1 {
+  font-size: 75px;
+  font-family: 'Gloria Hallelujah', cursive;
+  margin-top: 15px;
+}
+
+@media (max-width: 800px) {
+  .view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 200%;
+  }
+
+  .view .img img {
+    width: 300px;
+    margin-top: 20px;
+  }
+  
+  .view h1 {
+    font-size: 55px;
+    color: white;
+    margin-top: 10px;
+  }
+} 
